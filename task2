@@ -1,0 +1,24 @@
+
+
+# a=str(input(" Enter the NAME :"))
+
+# print(f"GooD Morning \t {a}")
+
+
+name=str(input("Enter your name:"))
+
+
+Letter=f''' 
+
+Dear< {name}>
+
+your are Selected
+
+<2/4/25>
+'''
+
+print(Letter)
+
+
+
+print(f"New {Letter.format}")
