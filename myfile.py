@@ -1,13 +1,10 @@
-mystring="This is Muhammad Talha"
+Word=["Donkey","bad"]
 
 
-f=open("file.tx","r")
-
-# data=f.write("this is my text")
-# data=f.write("this is my text")
-
-data=f.read()
+with open("file.tx")as f:
+    content=f.read()
 
 
-print(data)
-f.close()
+newcontent=content.replace("Donkey","#####")
+with open("file.tx")as f:
+    f.write(newcontent)    
