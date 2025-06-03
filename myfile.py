@@ -7,4 +7,7 @@ with open("file.tx")as f:
 
 newcontent=content.replace("Donkey","#####")
 with open("file.tx")as f:
-    f.write(newcontent)    
+    f.write(newcontent)  
+
+
+    print("Updated")  
