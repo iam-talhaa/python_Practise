@@ -1,12 +1,16 @@
 class Employee:
-    Name="Talha"
+   
     semester=8
     salary="15 lac"
+    section="E"
+
+talha=Employee()
 
 
-name=Employee()
 
+print(talha.semester)
+print(talha.salary)
 
-print(name.Name)
-print(name.semester)
-print(name.salary)
+#---------------
+talha.section="F"
+print(talha.section)
