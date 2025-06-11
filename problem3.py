@@ -16,7 +16,16 @@ class Dog(pets):
         
     def Bark(self):
         print(f"The Dog is :{self.mystr}")
+       
+
+class hh(pets):
+    def __init__(self,mystr):
+        self.mystr=mystr
+        super().__init__()
         
+    def Bark(self):
+        print(f"The Dog is :{self.mystr}")
+                
         
         
 
