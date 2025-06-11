@@ -23,7 +23,7 @@ class hh(pets):
         self.mystr=mystr
         super().__init__()
         
-    def Bark(self):
+    def no(self):
         print(f"The Dog is :{self.mystr}")
                 
         
