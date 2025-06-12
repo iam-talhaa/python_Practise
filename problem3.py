@@ -30,5 +30,14 @@ class hh(pets):
         
 
 obj =Dog('BARKING :')
+class hh(pets):
+    def __init__(self,mystr):
+        self.mystr=mystr
+        super().__init__()
+        
+    def no(self):
+        print(f"The Dog is :{self.mystr}")
+                
+        
 obj.Bark()
             
