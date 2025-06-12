@@ -40,4 +40,5 @@ class hh(pets):
                 
         
 obj.Bark()
+obj.Bark()
             
